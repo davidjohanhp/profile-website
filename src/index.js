@@ -7,6 +7,7 @@ import Navbar from './components/navbar';
 import Home from './components/home';
 import About from './components/about';
 import Projects from './components/projects';
+import Footer from './components/footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -15,7 +16,7 @@ root.render(
     <Home />
     <About />
     <Projects />
-    {/* <App /> */}
+    <Footer />
   </React.StrictMode>
 );
 
