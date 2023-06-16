@@ -71,7 +71,7 @@ class About extends React.Component {
                     <div>
                         <h2 className="text-start font-semibold text-gray-900 sm:text-3xl">Experienced in</h2>
                         <div className="pt-4">
-                            {/* <Slider {...this.settings}>
+                            <Slider {...this.settings}>
                                 {this.state.images.map(image => {
                                     return (
                                         <div className="flex">
@@ -81,7 +81,7 @@ class About extends React.Component {
                                         </div>
                                         );
                                     })}
-                            </Slider> */}
+                            </Slider>
                         </div>
                     </div>
                 </div>
