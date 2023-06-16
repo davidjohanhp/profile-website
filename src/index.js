@@ -5,12 +5,14 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Navbar from './components/navbar';
 import Home from './components/home';
+import About from './components/about';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Navbar />
-    <Home />
+    {/* <Home /> */}
+    <About />
     {/* <App /> */}
   </React.StrictMode>
 );
