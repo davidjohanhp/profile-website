@@ -6,13 +6,15 @@ import reportWebVitals from './reportWebVitals';
 import Navbar from './components/navbar';
 import Home from './components/home';
 import About from './components/about';
+import Projects from './components/projects';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Navbar />
-    {/* <Home /> */}
+    <Home />
     <About />
+    <Projects />
     {/* <App /> */}
   </React.StrictMode>
 );
