@@ -10,6 +10,7 @@ import Projects from './components/projects';
 import Footer from './components/footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+document.title = 'Portfolio of David Johan';
 root.render(
   <React.StrictMode>
     <Navbar />
